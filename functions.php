@@ -70,7 +70,7 @@ if ( ! function_exists( 'motioner_setup' ) ) {
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		
 		// Thumbnail sizes
-		add_image_size( 'motioner-small', 200, 200, true );
+		add_image_size( 'motioner-small', 460, 460, true );
 		add_image_size( 'motioner-medium', 520, 293, true );
 		add_image_size( 'motioner-large', 920, 518, true );
 		add_image_size( 'motioner-large-h', 920 );
