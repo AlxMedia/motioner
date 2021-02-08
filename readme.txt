@@ -77,5 +77,8 @@ Content images
 
 == Changelog ==
 
+= 1.0.1 - 2021-02-08 =
+* Increase thumb size to fix low quality thumbnail images
+
 = 1.0.0 - 2021-02-01 =
 * Initial release
