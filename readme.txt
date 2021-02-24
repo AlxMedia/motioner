@@ -77,8 +77,12 @@ Content images
 
 == Changelog ==
 
+= 1.0.2 - 2021-02-24 =
+* Fixed profile description field to allow for links and other html
+* Improved sidebar profile and site description text contrast
+
 = 1.0.1 - 2021-02-08 =
-* Increase thumb size to fix low quality thumbnail images
+* Increased thumb size to fix low quality thumbnail images
 
 = 1.0.0 - 2021-02-01 =
 * Initial release

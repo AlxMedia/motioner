@@ -1,7 +1,7 @@
 /*
 Theme Name: Motioner
 Theme URI: http://alx.media/themes/motioner/
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.6
@@ -689,6 +689,8 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 }
 
 #profile { background: #161616; position: relative; margin-top: 60px; text-align: center; }
+#profile a { color: #fff; }
+#profile a:hover { color: rgba(255,255,255,0.7); }
 #profile-inner { border-top: 1px solid #222; position: relative; padding: 90px 40px 40px; }
 #profile-image { background: #161616; border: 1px solid #222; margin-left: -71px; padding: 10px; width: 120px; height: 120px; display: block; border-radius: 100%; position: absolute; right: 50%; left: 50%; top: -70px; z-index: 2; }
 #profile-image img { display: block; border-radius: 100%; }
