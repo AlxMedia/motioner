@@ -3,7 +3,7 @@
  * An accessible and mobile-friendly implementation for navigation menus.
  */
 
-namespace AlxMedia;
+namespace Motioner;
 
 /**
  * Object containing all methods and hooks to modify default menus.
@@ -46,7 +46,7 @@ class Nav {
 	 *
 	 * @var string
 	 */
-	protected $handle_prefix = 'alxmedia-nav';
+	protected $handle_prefix = 'motioner-nav';
 
 	/**
 	 * Init.
@@ -56,7 +56,7 @@ class Nav {
 	 * @return void
 	 */
 	public function init() {
-		if ( apply_filters( 'alxmedia_disable_nav_mods', false ) ) {
+		if ( apply_filters( 'motioner_disable_nav_mods', false ) ) {
 			return;
 		}
 		add_filter( 'walker_nav_menu_start_el', [ $this, 'add_nav_sub_menu_buttons' ], 10, 4 );
