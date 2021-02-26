@@ -23,7 +23,7 @@ http://alx.media/documentation/
 
 == Copyright ==
 
-Motioner WordPress Theme, Copyright 2018 AlxMedia
+Motioner WordPress Theme, Copyright 2021 AlxMedia
 Motioner is distributed under the terms of the GNU GPL
 
 This program is free software: you can redistribute it and/or modify
@@ -38,25 +38,30 @@ GNU General Public License for more details.
 
 Motioner bundles the following third-party resources:
 
-Font Awesome, Copyright Dave Gandy
+Font Awesome
+Copyright (c) Dave Gandy
 License: SIL OFL 1.1 (Fonts); MIT (CSS)
-Source: http://fontawesome.com/
+Source: https://fontawesome.com/
 
-Titillium font, Copyright Accademia di Belle Arti di Urbino
-License: SIL Open Font License, version 1.1.
+Titillium Font
+Copyright (c) Accademia di Belle Arti di Urbino
+License: SIL OFL 1.1
 Source: http://www.campivisivi.net/titillium/
 
-Slick Carousel, Copyright Ken Wheeler
+Slick Carousel
+Copyright (c) Ken Wheeler
 License: MIT
 Source: http://kenwheeler.github.io/slick/
 
-FitVids, Copyright Chris Coyier
+FitVids
+Copyright (c) Chris Coyier
 License: WTFPL
 Source: http://fitvidsjs.com/
 
-Kirki, Copyright Aristeides Stathopoulos
+Kirki
+Copyright (c) David Vongries
 License: MIT
-Source: https://github.com/aristath/kirki
+Source: https://kirki.org/
 
 Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
