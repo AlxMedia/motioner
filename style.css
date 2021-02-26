@@ -217,7 +217,7 @@ input, textarea, button, select, label { font-family: inherit; }
 /*  base : entry
 /* ------------------------------------ */
 .entry { font-size: 19px; line-height: 1.6em; }
-.entry a { color: #dc3262; }
+.entry a { color: #dc3262; text-decoration: underline; }
 .entry a:hover { color: #000; }
 .entry hr { border: 0; background: #e5e5e5; height: 2px; width: 30%; margin: 40px auto; }
 .entry p,
