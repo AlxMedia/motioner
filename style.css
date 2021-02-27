@@ -1,7 +1,7 @@
 /*
 Theme Name: Motioner
 Theme URI: http://alx.media/themes/motioner/
-Version: 1.0.2
+Version: 1.0.3
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.6
@@ -734,7 +734,7 @@ body.search article.type-page .type-list-right { display: none; }
 /* ------------------------------------ */
 .toggle-search { background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); outline: none; border: 0; padding: 27px 0; width: 90px; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; display: block; }
 .toggle-search:focus { box-shadow: 0 0 20px rgba(0,0,0,0.3); }
-.toggle-search.active { background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); }
+.toggle-search.active { box-shadow: 0 0 20px rgba(0,0,0,0.3); background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); }
 .toggle-search.active i:before { content: "\f00d"; }
 .search-expand { display: none; background: #d64141; padding: 23px 30px 23px 0; position: absolute; top: 0; left: 90px; width: 310px; z-index: 10; }
 .col-2cr .search-expand { background: #bd1d9d; padding-left: 30px; padding-right: 0; left: auto; right: 90px; }
@@ -745,7 +745,7 @@ body.search article.type-page .type-list-right { display: none; }
 .toggle-search .svg-icon { fill: #fff; margin: 0 auto; }
 .toggle-search #svg-close { display: none; }
 .toggle-search.active #svg-search { display: none; }
-.toggle-search.active #svg-close { display: block; fill: rgba(255,255,255,0.7); }
+.toggle-search.active #svg-close { display: block; fill: rgba(255,255,255,0.6); }
 .toggle-search:focus #svg-close { fill: #fff; }
 
 

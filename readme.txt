@@ -82,6 +82,18 @@ Content images
 
 == Changelog ==
 
+= 1.0.3 - 2021-02-27 =
+* Fixed: mobile menu tabbing will enter in the menu even when it's closed
+* Fixed: add styles to focus states of menu and search
+* Fixed: trap focus in search popup
+* Fixed: prefix for custom menu names and classes
+* Fixed: readme format to declare license information
+* Fixed: make sure that the pingback_url is conditional since pings can be turned off
+* Fixed: added no minified font awesome css
+* Fixed: links within content must be underlined
+* Added option to disable custom navigation in child themes
+* Updated to Font Awesome Free 5.15.2
+
 = 1.0.2 - 2021-02-24 =
 * Fixed profile description field to allow for links and other html
 * Improved sidebar profile and site description text contrast
