@@ -774,6 +774,12 @@ body.search article.type-page .type-list-right { display: none; }
 	.mobile #nav-header { display: block; }
 }
 
+/* menu mobile fix */
+.mobile.nav-menu > div > ul.menu { transition: all 0.3s ease; visibility: hidden; }
+.mobile.toggled.nav-menu > div > ul.menu { visibility: visible; }
+.mobile.toggled.nav-menu > div > ul.menu ul.sub-menu { transition: all 0.3s ease; visibility: hidden; }
+.mobile.toggled.nav-menu > div > ul.menu ul.sub-menu.active { visibility: visible; }
+
 /* menu base */
 .nav-menu > .menu-toggle { display: none; }
 .nav-menu.mobile > .menu-toggle { display: block; }
