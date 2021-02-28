@@ -82,6 +82,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.4 - 2021-02-28 =
+* Fixed: trap focus on page load issue
+
 = 1.0.3 - 2021-02-27 =
 * Fixed: mobile menu tabbing will enter in the menu even when it's closed
 * Fixed: add styles to focus states of menu and search

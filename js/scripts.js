@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 /* ------------------------------------ */
 	$('.toggle-search').on('click', function() {
 		$('.toggle-search').toggleClass('active');
-		$('.search-expand').fadeToggle(250);
+		$('.toggle-search-trap').fadeToggle(250);
             setTimeout(function(){
                 $('.search-expand input').focus();
             }, 300);
@@ -107,7 +107,7 @@ jQuery(document).ready(function($) {
 	// add all the elements inside modal which you want to make focusable
 	const  focusableElements =
 		'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
-	const modal = document.querySelector('#trap-focus'); // select the modal by it's id
+	const modal = document.querySelector('.toggle-search-trap'); // select the modal by it's id
 
 	const firstFocusableElement = modal.querySelectorAll(focusableElements)[0]; // get first element to be focused inside modal
 	const focusableContent = modal.querySelectorAll(focusableElements);
