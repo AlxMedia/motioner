@@ -82,6 +82,10 @@ Content images
 
 == Changelog ==
 
+= 1.0.5 - 2021-02-28 =
+* Increased menu dropdown width
+* Added input focus style on header search form
+
 = 1.0.4 - 2021-02-28 =
 * Fixed: trap focus on page load issue
 
