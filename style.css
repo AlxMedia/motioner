@@ -1,7 +1,7 @@
 /*
 Theme Name: Motioner
 Theme URI: http://alx.media/themes/motioner/
-Version: 1.0.5
+Version: 1.0.6
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.6
@@ -736,7 +736,7 @@ body.search article.type-page .type-list-right { display: none; }
 .toggle-search:focus { box-shadow: 0 0 20px rgba(0,0,0,0.3); }
 .toggle-search.active { box-shadow: 0 0 20px rgba(0,0,0,0.3); background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); }
 .toggle-search.active i:before { content: "\f00d"; }
-.search-expand { background: #d64141; padding: 23px 30px 23px 0; position: absolute; top: 0; left: 90px; width: 310px; z-index: 10; }
+.search-expand { display: none; background: #d64141; padding: 23px 30px 23px 0; position: absolute; top: 0; left: 90px; width: 310px; z-index: 10; }
 .col-2cr .search-expand { background: #bd1d9d; padding-left: 30px; padding-right: 0; left: auto; right: 90px; }
 .search-expand-inner {  }
 .search-expand .themeform input { background: #fff; width: 100%; border: 1px solid #ddd; }
@@ -747,11 +747,6 @@ body.search article.type-page .type-list-right { display: none; }
 .toggle-search.active #svg-search { display: none; }
 .toggle-search.active #svg-close { display: block; fill: rgba(255,255,255,0.6); }
 .toggle-search:focus #svg-close { fill: #fff; }
-
-.toggle-search-open.active,
-.toggle-search-close,
-.toggle-search-trap { display: none; }
-.toggle-search-close.active { display: block; }
 
 
 /* ------------------------------------------------------------------------- *

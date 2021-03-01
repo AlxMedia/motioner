@@ -82,6 +82,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.6 - 2021-03-01 =
+* Improved markup for header search form focus trap
+
 = 1.0.5 - 2021-02-28 =
 * Increased menu dropdown width
 * Added input focus style on header search form
