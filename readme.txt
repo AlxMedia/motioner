@@ -82,6 +82,9 @@ Content images
 
 == Changelog ==
 
+= 1.0.7 - 2021-03-03 =
+* Fixed: javascript error if search button is disabled
+
 = 1.0.6 - 2021-03-01 =
 * Improved markup for header search form focus trap
 
