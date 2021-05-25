@@ -84,6 +84,7 @@ Content images
 
 = 1.0.8 - 2021-05-25 =
 * Fixed compatibility issue with custom nav and various security plugins
+* Updated language files
 
 = 1.0.7 - 2021-03-03 =
 * Fixed: javascript error if search button is disabled
