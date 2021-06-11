@@ -11,6 +11,7 @@
 					<header class="entry-header group">
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 						<div class="entry-meta">
+							<span class="entry-category"><?php the_author_meta('display_name'); ?></span>
 							<span class="entry-date"><?php the_time( get_option('date_format') ); ?></span>
 							<span class="entry-category"><?php the_category(' / '); ?></span>
 						</div>
