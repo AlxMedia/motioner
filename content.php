@@ -28,6 +28,7 @@
 			</div>
 		</div>
 		<div class="type-list-right">
+			<div class="entry-category"><?php the_author_meta('display_name'); ?></div>
 			<div class="type-list-date"><?php the_time( get_option('date_format') ); ?></div>
 			<div class="type-list-category"><?php the_category(' / '); ?></div>
 			<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) == 'on' ) ): ?>
