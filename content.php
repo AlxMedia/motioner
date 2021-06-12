@@ -28,8 +28,12 @@
 			</div>
 		</div>
 		<div class="type-list-right">
-			<div class="entry-category"><?php the_author_meta('display_name'); ?></div>
 			<div class="type-list-date"><?php the_time( get_option('date_format') ); ?></div>
+			<div class="type-list-category">
+				<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
+					<?php the_author_meta('display_name'); ?>
+				</a>
+			</div>
 			<div class="type-list-category"><?php the_category(' / '); ?></div>
 			<?php if ( comments_open() && ( get_theme_mod( 'comment-count', 'on' ) == 'on' ) ): ?>
 				<a class="post-comments" href="<?php comments_link(); ?>"><span><?php comments_number( '0', '1', '%' ); ?></span></a>
