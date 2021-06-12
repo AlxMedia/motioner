@@ -12,7 +12,7 @@
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 						<div class="entry-meta">
 							<span class="entry-category">
-								<a href="<?php the_author_meta('user_url'); ?>" rel="author">
+								<a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
 									<?php the_author_meta('display_name'); ?>
 								</a>
 							</span> &middot;
