@@ -82,6 +82,10 @@ Content images
 
 == Changelog ==
 
+= 1.1.1 - 2021-07-23 =
+* Disabled support for widgets block editor
+* Updated language files
+
 = 1.1.0 - 2021-07-19 =
 * Updated to Kirki 3.1.9
 
