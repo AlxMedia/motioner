@@ -516,7 +516,7 @@ Kirki::add_field( 'motioner_theme', array(
 	'label'			=> esc_html__( 'Create Social Links', 'motioner' ),
 	'description'	=> esc_html__( 'Create and organize your social links', 'motioner' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_html__( 'Font Awesome names:', 'motioner' ) . ' <a href="https://fontawesome.com/icons?d=gallery&s=brands&m=free" target="_blank"><strong>' . esc_html__( 'View All', 'motioner' ) . ' </strong></a>',
+	'tooltip'		=> esc_html__( 'Font Awesome names:', 'motioner' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'motioner' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_html__('social link', 'motioner' ),
@@ -533,7 +533,7 @@ Kirki::add_field( 'motioner_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_html__( 'Icon Name', 'motioner' ),
-			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'motioner' ) . ' <a href="https://fontawesome.com/icons?d=gallery&s=brands&m=free" target="_blank"><strong>' . esc_html__( 'View All', 'motioner' ) . ' </strong></a>',
+			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'motioner' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'motioner' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(
