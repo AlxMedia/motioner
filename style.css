@@ -1,7 +1,7 @@
 /*
 Theme Name: Motioner
 Theme URI: http://alx.media/themes/motioner/
-Version: 1.1.4
+Version: 1.1.5
 Requires at least: 5.0
 Requires PHP: 5.6
 Tested up to: 5.9
@@ -732,14 +732,14 @@ body.search article.type-page .type-list-right { display: none; }
 /*  header : search
 /* ------------------------------------ */
 .toggle-search { background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); outline: none; border: 0; padding: 27px 0; width: 90px; color: #333; text-align: center; font-size: 20px; line-height: 24px; cursor: pointer; display: block; }
-.toggle-search:focus { box-shadow: 0 0 20px rgba(0,0,0,0.3); }
-.toggle-search.active { box-shadow: 0 0 20px rgba(0,0,0,0.3); background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); }
+.toggle-search:focus { box-shadow: 0 0 20px rgba(0,0,0,0.2); }
+.toggle-search.active { box-shadow: 0 0 20px rgba(0,0,0,0.2); background: linear-gradient(90deg, #bd1d9d 0%, #d64141 100%); }
 .toggle-search.active i:before { content: "\f00d"; }
 .search-expand { display: none; background: #d64141; padding: 23px 30px 23px 0; position: absolute; top: 0; left: 90px; width: 310px; z-index: 10; }
 .col-2cr .search-expand { background: #bd1d9d; padding-left: 30px; padding-right: 0; left: auto; right: 90px; }
 .search-expand-inner {  }
 .search-expand .themeform input { background: #fff; width: 100%; border: 1px solid #ddd; }
-.search-expand .themeform input:focus { border-color: #ccc; box-shadow: inset 0 0 20px rgba(0,0,0,0.3); }
+.search-expand .themeform input:focus { border-color: #ccc; box-shadow: inset 0 0 20px rgba(0,0,0,0.1); }
 .toggle-search.active { padding-top: 30px; padding-bottom: 29px; }
 .toggle-search .svg-icon { fill: #fff; margin: 0 auto; }
 .toggle-search #svg-close { display: none; }

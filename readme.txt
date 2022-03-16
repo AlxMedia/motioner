@@ -82,6 +82,9 @@ Content images
 
 == Changelog ==
 
+= 1.1.5 - 2022-03-16 =
+* Added header search button for tablet and mobile
+
 = 1.1.4 - 2022-03-15 =
 * Updated to Kirki 4.0.22
 
